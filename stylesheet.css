@@ -4,8 +4,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-
+.header,
 .section1,
 .section2,
 .section3,
@@ -14,7 +13,97 @@ body{
     display: flex;
 }
 
-.section2 {
-    background-color: rosybrown;
+/*section 0 header und die 3 links*/
 
+.header {
+    color: white;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+
+.right-side {
+   padding-right: 250px;
+}
+.links {
+    color: rgba(255, 255, 255, 0.66);
+    display: flex;
+    gap: 20px;
+}
+
+/*section 1 awesome webseite mit img*/
+.main-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+
+.section1 {
+    background-color: #1F2937;
+}
+.subtext{
+    color: rgba(255, 255, 255, 0.66);
+}
+.sign-up {
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 7px;
+    border-color: #1F2937;
+    color: #E5E7EB;
+    padding: 3px 20px;
+}
+
+/*section 2 random nfo mit img und beschreibung*/
+
+.section2 {
+    flex-direction: column;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+    align-self: center;
+    padding: 36px;
+}
+
+.folder-img{
+    flex-direction: column;
+}
+
+/*section 3 quote*/
+.section3 {
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+/*section 4 mit sign up div white & blue */
+
+
+/*footer*/
+
+.footer {
+    color: white;
+    height: 3em;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
