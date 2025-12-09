@@ -94,29 +94,37 @@ body{
     padding: 36px;
 }
 
+.boxandSubtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .box-container{
     justify-content: center;
     align-content: center;
-    gap: 30px;
+    gap: 40px;
+    padding-bottom: 13px;
 }
 
 .box {
-    width: 200px;
     height: 200px;
-    color: #3882F6;
-    border-color: #1F2937;
+    width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
 }
 .subtextimage {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     text-align: center;
     padding-bottom: 80px;
+    gap: 40px;
 }
 
 .sub{
-    width: 170px;
-    padding: 30px;
+    width: 200px;
     color: #1F2937;
 }
 
