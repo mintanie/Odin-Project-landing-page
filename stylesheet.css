@@ -1,6 +1,7 @@
 body{
-    font-family: sans-serif;
+    font-family: "Roboto Light", sans-serif;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
@@ -13,38 +14,55 @@ body{
     display: flex;
 }
 
-/*section 0 header und die 3 links*/
-
+/*section 0 header und die 3 links - NICHT verändern*/
 .header {
     color: white;
     background-color: #1F2937;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-left: 250px;
+    padding-left: 120px;
     padding-bottom: 100px;
 }
-
-.right-side {
-   padding-right: 250px;
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: center;
+    align-self: center;
 }
+
 .links {
-    color: rgba(255, 255, 255, 0.66);
     display: flex;
+    padding-right: 120px;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*section 1 awesome webseite mit img*/
 .main-title {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 900;
-    color: white;
+    color: #F9FAF8;
 }
 
 .section1 {
     background-color: #1F2937;
+    padding-bottom: 120px;
+
 }
+
 .subtext{
     color: rgba(255, 255, 255, 0.66);
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    font-size: 18px;
+    justify-content: center;
+    align-self: center;
+}
+
+.left-side-one{
+    padding-left: 120px;
+    width: 450px;
+    padding-right: 30px;
 }
 .sign-up {
     background-color: #3882F6;
@@ -52,11 +70,16 @@ body{
     border-radius: 7px;
     border-color: #1F2937;
     color: #E5E7EB;
-    padding: 3px 20px;
+    font-size: 18px;
+    padding: 6px 30px;
+}
+.placeholder-img{
+    padding-left: 2em;
+    justify-content: center;
+    align-self: center;
 }
 
 /*section 2 random nfo mit img und beschreibung*/
-
 .section2 {
     flex-direction: column;
 }
@@ -100,8 +123,9 @@ body{
 }
 
 a {
-    color: white;
+    color: rgba(255, 255, 255, 0.63);
     text-decoration: none;
+    font-size: 18px;
 }
 
 li {
