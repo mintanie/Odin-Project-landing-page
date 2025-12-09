@@ -10,6 +10,7 @@ body{
 .section2,
 .section3,
 .section4,
+.box-container,
 .footer {
     display: flex;
 }
@@ -93,32 +94,95 @@ body{
     padding: 36px;
 }
 
-.folder-img{
-    flex-direction: column;
+.box-container{
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
 }
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: #3882F6;
+    border-color: #1F2937;
+}
+.subtextimage {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.sub{
+    width: 170px;
+    padding: 30px;
+    color: #1F2937;
+}
+
+
 
 /*section 3 quote*/
 .section3 {
     flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
+    height: auto;
+    padding: 120px 240px;
 }
 
 .quote {
+    display: flex;
     font-size: 36px;
     font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    align-self: center;
+    justify-content: center;
 }
 
-/*section 4 mit sign up div white & blue */
+.right-side {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+/*section 4 mit sign up div white & blue NICHT verändern*/
+.section4{
+    justify-content: center;
+    padding: 100px;
+}
+.container{
+    display: flex;
+    background-color: #3882F6;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-self: center;
+}
+.border {
+    border-style: solid;
+    border-radius: 9px;
+    border-color: #E5E7EB;
+    padding: 6px 50px;
+    font-size: 20px;
+}
+.right-text{
+    color: white;
+    gap: 30px;
 
+}
 
 /*footer*/
-
 .footer {
-    color: white;
-    height: 3em;
+    color: rgba(255, 255, 255, 0.64);
+    height: 100px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: #1F2937;
 }
 
